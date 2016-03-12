@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //中间视图显示
-    self.middleView = [[CustomSegementView alloc]init];
+    self.middleView = [[CustomSegementView alloc]initWithFrame:CGRectMake(0, 0, 80, 20)];
     self.navigationItem.titleView = self.middleView;
     [self setContentView];
     // Do any additional setup after loading the view, typically from a nib.

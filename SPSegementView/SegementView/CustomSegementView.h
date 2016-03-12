@@ -10,13 +10,7 @@
 
 @interface CustomSegementView : UIView
 
-
-- (instancetype)init;
-/**
- *  创建view
- */
-
-
+- (instancetype)initWithFrame:(CGRect)frame;
 
 /**
  *  百分比
